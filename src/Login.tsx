@@ -42,6 +42,9 @@ const Login = (_props: object)=>{
                 <input type="password" onChange={(e) => {setSenha(e.target.value)}} />
                 <button type="button" onClick={login}>Fazer Login</button>
             </div>
+            <div>
+                <a href="/cadastrar">Cadastrar</a>
+            </div>
             <div>{loginFailMsg}</div>
         </>
     );
